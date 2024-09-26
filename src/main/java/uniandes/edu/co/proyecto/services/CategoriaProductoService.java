@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import uniandes.edu.co.proyecto.entity.CategoriaProducto;
+import uniandes.edu.co.proyecto.exeptions.ResourceNotFoundException;
 import uniandes.edu.co.proyecto.repositories.CategoriaProductoRepository;
 
 @Service
